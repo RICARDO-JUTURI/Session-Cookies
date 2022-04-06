@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  /*   background-color: grey; */
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px, solid black;
+    border-radius: 1rem;
+    background-color: cadetblue;
+    padding: 1rem;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+form div label {
+    margin-bottom: 5px;
+
+}
+
+.text-danger {
+    color: red;
+}
